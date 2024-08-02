@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <style>
+      
+      body {
+        background-color: #f8f9fa;
+        font-family: 'Poppins', sans-serif;
+        margin: 20px 50px;
+      }
+
+      .navbar {
+        font-size: 2rem;
+      }
+      
+      #banner-image {
+        position: relative;
+        padding-top: 1vh;
+      }
+
+      #banner-image img {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .overlay-tittle {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        color: white;
+        font-size: 5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.822);
+        text-align: center;
+        transform: translate(-50%, -50%) !important;
+      }
+
+      .overlay-header {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+      }
+
+      .first-img {
+        display: flex;
+        padding-top: 5vh;
+        border-bottom: 1px solid 00000048;
+        border-top: 1px solid #00000048;
+        margin: 2vh 15vh;
+
+      }
+
+      .first-img  img {
+        display: flex;
+        width: 25vh;
+      }
+      .first-img h3 {
+        display: flex;
+        margin: 10;
+        font-size: 1.5rem;
+      }
+
+      .second-img {
+        display: flex;
+        padding-top: 5vh;
+        border-top: 1px solid #00000048;
+        border-bottom: 1px solid #00000042;
+        margin: 2vh 15vh;
+        
+      }
+
+      .second-img  img {
+        display: flex;
+        width: 25vh;
+      }
+      .second-img h3 {
+        display: flex;
+        margin-top: 5vh;
+        font-size: 2rem;
+      }
+
+      .headerr {
+        margin: 2vh 15vh;
+      }
+
+      .headerr h1 {
+        font-size: 5rem;
+      }
+
+      .headerr p {
+        font-size: 2rem;
+        margin-top: 2vh;
+      }
+
+      .portfolio {
+
+        margin: 2vh 15vh;
+        padding-top: 5vh;
+    
+      } 
+
+      .portfolio .card-group .postgresql img {
+        width: 400px;
+        height: 400px;
+      }
+
+      .portfolio .card-group .react img {
+        width: 400px;
+        height: 400px;
+      }
+
+      .portfolio .card-group .python img {
+        width: 400px;
+        height: 400px;
+      }
+
+      .portfolio .card-body h5 {
+        font-size: 3rem;
+      }
+      
+      .portfolio .card-body {
+        font-size: 1.5rem;
+      }
+      
+      .header-contact  h1{
+        font-size: 3rem;
+      }
+
+      .header-contact  p {
+        font-size: 1.5rem;
+      }
+
+      .header-contact {
+        margin: 2vh 15vh;
+      }
+
+      .container {
+        margin: 2vh 15vh;
+      }
+
+      .interior {
+        font-size: 1.5rem;
+      }
+
+      .btn {
+        font-size: 1.5rem;
+      }
+    </style>
+</head>
+<body>
+      <!-- parte de sebastian, pretendia esperar a Isaac pero quiero seguir con los trabajos y ya habiamos conversado.-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Portafolios</a>
+              <a class="nav-link" href="#">Precios</a>
+              <a class="nav-link disabled" aria-disabled="true"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+      <div id="banner-image">
+        <img src="./assets/banner.jpg" class="img-fluid" id="img-banner"> 
+        <div class="overlay-tittle">One Page Wonder</div>
+        <div class="overlay-header">Will Knock Your Socks Off</div>
+      </div>
+
+    <div class="two-info">
+      <div class="first-img">
+        <img src="/assets/fem.png">
+        <h3>Mi nombre es Alexandra y soy programadora desde hace ya 4 años, aqui podras ver mi informacion y mis trabajos !</h3>
+      </div>
+
+      <div class="second-img">
+          <h3>Mi nombre es Pedro y soy programador hace 7 años, aqui podras ver algunos de mis trabajos!</h3>
+          <img src="/assets/men.png">
+      </div>
+    </div>
+
+    <div class="headerr">
+      <h1>Portafolio</h1>
+      <p>Aqui visualizamos las tecnologias ocupadas</p>
+    </div>
+
+    <div class="portfolio text-center">
+      <div class="card-group row alight-item-start">
+        <div class="postgresql col">
+          <img src="./assets/postgresql.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PostgreSQL Project</h5>
+            <p class="card-text">This is a PostgreSQL Project</p>
+          </div>
+        </div>
+        <div class="python col">
+          <img src="./assets/python.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python Project</h5>
+            <p class="card-text">This is a Python project.</p>
+          </div>
+        </div>
+        <div class="react col">
+          <img src="./assets/react.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">React Project</h5>
+            <p class="card-text">This is a React Project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- ESTA ES LA PARTE DE CAMILA-->
+
+    <div class="header-contact mt-3 me-3 ms-3 pt-3 pe-3 ps-3 ">
+      <h1>Contactame</h1>
+      <p>¡Si te gusta mi trabajo y necesitas comunicarte!</p>
+    </div>
+      
+
+    <div class="container mt-4 p-4 bg-light border border-secondary-subtl border-1 rounded-1">
+      <div class="interior row mb-3 ms-3">
+        <label for="exampleFormControlInput1" class="col-sm-2 col-form-label ps-4"><strong>Your E-mail</strong></label>
+        <div class="col-sm-10 ps-0">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+        </div>
+      </div>
+      <div class="interior row mb-3 ms-3">
+        <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label"><strong>Your Message</strong></label>
+        <div class="col-sm-10 ps-0">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Please enter your message here..."></textarea>
+        </div>
+      </div>
+      <div class="interior row">
+        <div class="col-sm-12 d-flex justify-content-end">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+  </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
